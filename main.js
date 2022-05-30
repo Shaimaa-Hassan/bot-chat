@@ -15,9 +15,9 @@ async function getbotanswer(){
             alert("please insert value");
         }
         else{
+            chatArea.innerHTML +=`<p class=" p-2 " style="background-color: #ddd;">${message.value}</p>  `//جعلتها هنا عشان يكتب الرسالة سواء كانت موجودة او لا 
             data.forEach((item)=>{
                 if(message.value.trim().toLowerCase() === item.my_msg){
-                    chatArea.innerHTML +=`<p class=" p-2 " style="background-color: #ddd;">${message.value}</p>  `
                     let timeres = Math.floor(Math.random()*10000);
                     console.log(timeres);//هيطبع الوقت اللي هتتعرض فيه الرسالة 
                     setTimeout(()=>{chatArea.innerHTML += `  <p class="bg-info p-2">${item.bot_answer}</p>`}, timeres);
@@ -26,6 +26,7 @@ async function getbotanswer(){
             // if(message.value.trim() === (data[0].my_msg)){
             //     console.log(data[0].bot_answer);
             // }
+            message.value ="";// هنا عشان يفضي المكان اللي بنكتب فيه بعد ما يرسله في كل مرة
         }
     }
 }
