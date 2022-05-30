@@ -1,0 +1,56 @@
+[
+
+    
+    {
+        "my_msg":"hello!",
+        "bot_answer":"Good morning my freind"
+    },
+    {
+        "my_msg":"you love me!",
+        "bot_answer":"yes i love you"
+    },
+    {
+        "my_msg":"how old you?",
+        "bot_answer":"my old is 2 milion years"
+    },
+    {
+        "my_msg":"السلام عليكم",
+        "bot_answer":"وعليكم السلام ورحمة الله وبراكاته"
+    },
+    {
+        "my_msg":"كيف حالك",
+        "bot_answer":"انا بخير وانت؟"
+    },
+    {
+        "my_msg":"الحمدلله",
+        "bot_answer":"يارب دايما"
+    },
+    {
+        "my_msg":"امك اسمها ايه",
+        "bot_answer":"احترم نفسك"
+    },
+    {
+        "my_msg":"ياعم قول بس",
+        "bot_answer":"مش هرد عليك انت مش محترم"
+    },
+    {
+        "my_msg":"ازيك",
+        "bot_answer":"الحمدلله"
+    },
+    {
+        "my_msg":"اخبارك",
+        "bot_answer":"كويس الحمدلله"
+    },
+    {
+        "my_msg":"عامل ايه",
+        "bot_answer":"كويس الحمدلله"
+    },
+    {
+        "my_msg":"احوالك",
+        "bot_answer":"ما خلاص هي قصة ما قولت الحمدلله"
+    },
+    {
+        "my_msg":"ياعم طب براحة",
+        "bot_answer":"طب حل عني بقا"
+    }
+]

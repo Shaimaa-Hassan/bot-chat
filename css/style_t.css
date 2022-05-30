@@ -1,0 +1,54 @@
+/* 1.global style  */
+/* 2.common style */
+/* general style.............................................................................. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* small screen */
+@media (min-width:768px){
+    .container {
+        width: 750px;
+    }
+}
+/* medium screen */
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+/* large screen */
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 0 !important;
+}
+ul{
+    list-style: none;
+}
+/* :root{ */
+    /* --main-color:; */
+    /* --main-transition:; */
+    /* --section-padding:; */
+    /* --bg-color:; */
+/* } */
+/* ///////////////////////////////////////
+ */
+ input::placeholder{
+     color: white;
+     padding-left: 10px;
+     text-transform: capitalize;
+ }
